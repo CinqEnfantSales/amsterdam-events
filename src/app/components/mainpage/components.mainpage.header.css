@@ -1,0 +1,45 @@
+.header {
+display: flex;
+width: 100%;
+justify-content: space-between;
+overflow: hidden;
+white-space: nowrap;
+}
+
+.header div {
+background-color:#ffd7a6;
+margin: 0.1em;
+}
+
+.middle{
+width: 100%;
+background-color: transparent !important;
+}
+
+h1 {
+margin: 0;
+}
+
+.title {
+color: red;
+text-align: center;
+height: 50%;
+}
+
+.subtext {
+color: black;
+direction:rtl;
+text-align:justify;
+height: 50%;
+padding-right: 1em;
+}
+
+.image_1 {
+ height: 120px;
+ width: auto;
+ }
+
+ .image_2 {
+ height: 120px;
+ width: auto;
+ }
