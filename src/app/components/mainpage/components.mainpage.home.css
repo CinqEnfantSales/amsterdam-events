@@ -1,0 +1,33 @@
+.main {
+display: flex;
+justify-content: space-between;
+}
+
+.left {
+min-width: 200px;
+flex: 0 0 auto;
+margin: 5px;
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+img {
+height: 200px;
+width: auto;
+margin: 5px;
+}
+
+.center {
+width: 60%;
+flex: 2 0 auto;
+margin: 5px;
+}
+
+.right {
+flex: 1 1 auto;
+margin: 5px;
+ }

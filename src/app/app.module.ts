@@ -2,13 +2,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ServerComponent } from './components/mainpage/components.mainpage.header.ts';
+import { Header } from './components/mainpage/components.mainpage.header';
+import { Body } from './components/mainpage/components.mainpage.home';
+import { Navbar } from './components/mainpage/components.mainpage.nav-bar';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ServerComponent
+    Header,
+    Body,
+    Navbar
   ],
+
   imports: [
     BrowserModule
   ],
